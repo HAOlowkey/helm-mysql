@@ -3,15 +3,28 @@ entries:
   mysql:
   - apiVersion: v2
     appVersion: 8.0.26
-    created: "2022-08-15T13:49:29.527443+08:00"
+    created: "2022-08-31T17:53:07.468498+08:00"
     dependencies:
     - name: proxysql
       repository: ""
     description: deploy mysql standalone or group-replication Helm chart for Kubernetes
-    digest: 6f5a4f0d4026166fd877d899febd9f7b885a866aad7bb55d7ba3682fe1ebb494
+    digest: 6243273b7090d2331ae4adb5febefeb65f5961b4e4de5176b88c5fcc35f23c36
     name: mysql
     type: application
     urls:
-    - https://haolowkey.github.io/helm-mysql/mysql-2.0.1.tgz
+    - https://haolowkey.github.io/helm-redis/mysql-2.0.2.tgz
+    version: 2.0.2
+  - apiVersion: v2
+    appVersion: 8.0.26
+    created: "2022-08-31T17:53:07.461086+08:00"
+    dependencies:
+    - name: proxysql
+      repository: ""
+    description: deploy mysql standalone or group-replication Helm chart for Kubernetes
+    digest: 11da955af42d286a3ba2f79281e07555e7b7246aed6da171ae8bbb0d8026efa7
+    name: mysql
+    type: application
+    urls:
+    - https://haolowkey.github.io/helm-redis/mysql-2.0.1.tgz
     version: 2.0.1
-generated: "2022-08-15T13:49:29.522862+08:00"
+generated: "2022-08-31T17:53:07.454544+08:00"
