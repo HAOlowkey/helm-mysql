@@ -3,7 +3,7 @@ entries:
   mysql:
   - apiVersion: v2
     appVersion: 8.0.26
-    created: "2022-08-31T17:53:07.468498+08:00"
+    created: "2022-08-31T17:55:44.025624+08:00"
     dependencies:
     - name: proxysql
       repository: ""
@@ -12,11 +12,11 @@ entries:
     name: mysql
     type: application
     urls:
-    - https://haolowkey.github.io/helm-redis/mysql-2.0.2.tgz
+    - https://haolowkey.github.io/helm-mysql/mysql-2.0.2.tgz
     version: 2.0.2
   - apiVersion: v2
     appVersion: 8.0.26
-    created: "2022-08-31T17:53:07.461086+08:00"
+    created: "2022-08-31T17:55:44.019208+08:00"
     dependencies:
     - name: proxysql
       repository: ""
@@ -25,6 +25,6 @@ entries:
     name: mysql
     type: application
     urls:
-    - https://haolowkey.github.io/helm-redis/mysql-2.0.1.tgz
+    - https://haolowkey.github.io/helm-mysql/mysql-2.0.1.tgz
     version: 2.0.1
-generated: "2022-08-31T17:53:07.454544+08:00"
+generated: "2022-08-31T17:55:44.014549+08:00"
